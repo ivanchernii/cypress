@@ -15,6 +15,11 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+import './w3schools/slideshow'
+import './w3schools/checkLoginForm'
+import './w3schools/checkAccordion'
+import './w3schools/checkHoverDropdowns'
+import './w3schools/checkClickDropdowns'
+import './w3schools/checkSideNavigation'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

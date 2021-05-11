@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// export function checkH2Block(nameH2) {
+//   return cy.get(".w3-container .h2-anchor").should("contain", nameH2);
+// }
+
+Cypress.Commands.add("checkH2Block", (nameH2) => {
+  cy.get(".w3-container .h2-anchor").should("contain", nameH2);
+});
